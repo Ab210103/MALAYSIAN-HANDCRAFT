@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Team Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="brand">Kraf Tangan</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="Home.html">Home</a>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn">Culture</a>
+                    <div class="dropdown-content">
+                        <a href="Asli.html">Orang Asli</a>
+                        <a href="Melayu.html">Malay</a>
+                        <a href="Chinese.html">Chinese</a>
+                        <a href="Indian.html">Indian</a>
+                    </div>
+                </div>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="wrapper">
+
+        <div class="title">
+            <h4>Our Team Section</h4>
+        </div>
+
+        <div class="card_Container">
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="./Gambor/AB.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Aiman Bahri Bin Kamarozaman <br><span>Web Analyst</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/amn03bhr/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="tel:+6011-2634-5944"><i class="fa-solid fa-phone"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="mailto:2024788965@student.uitm.edu.my"><i class="fa-solid fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="./Gambor/mal.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Akmal Bin Shawaluddin <br><span>UI/UX Designer</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/akmalbjerg/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="tel:+6011-1166-2943"><i class="fa-solid fa-phone"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="mailto:2024783601@student.uitm.edu.my"><i class="fa-solid fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="./Gambor/ezaddir.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Ezaddir Mazlan <br><span>Video Editor</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/youngun_pc/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="tel:+6011-2722-0221"><i class="fa-solid fa-phone"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="mailto:ezaddir@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <div class="imbBx">
+                    <img src="./Gambor/azmi.jpg" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="contentBx">
+                        <h3>Muhammad Amirul Azmi Bin Rosli <br><span>Video Editor</span></h3>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i: 1">
+                            <a href="https://www.instagram.com/amirulazmirosli/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li style="--i: 2">
+                            <a href="tel:+6019-592-7338"><i class="fa-solid fa-phone"></i></a>
+                        </li>
+                        <li style="--i: 3">
+                            <a href="mailto:2024738737@student.uitm.edu.my"><i class="fa-solid fa-envelope"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click",() => {
+        menuBtn.classList.toggle("active");
+        navigation.classList.toggle("active");
+
+    });
+
+    </script>
+
+</body>
+</html>

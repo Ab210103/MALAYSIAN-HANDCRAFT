@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Indian</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="brand">Kraf Tangan</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="Home.html">Home</a>
+                <a href="Asli.html">Orang Asli</a>
+                <a href="Melayu.html">Malay</a>
+                <a href="Chinese.html">Chinese</a>
+                <a href="Indian.html">Indian</a>
+                <a href="About.html">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="slide">
+
+            <div class="item" style="background-image: url(./Images/rangoli.jpg);">
+                <div class="content">
+                    <div class="name">Wall Art and Painting</div>
+                    <div class="des">Indian Wall Art and Painting (Seni Lukisan dan Hiasan Dinding) includes traditional forms of decorative art often used in festivals and religious ceremonies. One well-known form is Rangoli, where colorful patterns are created on the floor or walls using colored powders, flowers, and other materials. These designs are typically made during festivals like Diwali to bring good fortune. In addition to Rangoli, there are wall murals and paintings depicting deities, mythological stories, and nature. These artworks often reflect Hindu beliefs and are used to adorn temples, homes, and community spaces. The intricate designs and vivid colors symbolize spirituality, joy, and prosperity.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/patunggila.png);">
+                <div class="content">
+                    <div class="name">Metal Crafts</div>
+                    <div class="des">Indian metal crafts are a significant part of the country's artistic heritage, known for their intricate designs and religious symbolism. These crafts often involve the creation of religious statues, bells, lamps, and other decorative items made from metals like copper, brass, and silver. Skilled artisans use techniques such as casting, engraving, and embossing to produce detailed works. These metal pieces are often used in Hindu religious ceremonies, with items like brass lamps (diyas) or idols of deities being essential in temples and homes. The craftsmanship reflects both functional and spiritual purposes in Indian culture.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/saree.png);">
+                <div class="content">
+                    <div class="name">Silk Weaving</div>
+                <div class="des">Indian silk weaving is renowned for its high quality and intricate designs. Traditional silk fabrics like Kanchipuram sarees feature detailed patterns, often with motifs of gods, nature, or geometric shapes. These crafts are not only used in clothing but also reflect the rich cultural heritage and religious traditions of the Indian community in Malaysia.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/kalung.png);">
+                <div class="content">
+                    <div class="name">Flower Garlands</div>
+                    <div class="des">A flower garland (Kalung Bunga) in Indian culture is a decorative necklace made from fresh or artificial flowers. It is commonly worn during religious ceremonies, festivals, and weddings. The garland symbolizes purity, beauty, and divine blessings, and is often offered to deities during prayers or placed on idols as an act of reverence. Kalung bunga is also a symbol of hospitality and respect when presented to guests. These garlands are made with a variety of flowers, such as jasmine, marigolds, and roses, each carrying its own cultural and symbolic significance.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/blok.png);">
+                <div class="content">
+                    <div class="name">Block Printing</div>
+                    <div class="des">Block printing is a traditional textile technique in which patterns are stamped onto fabric using wooden blocks. The blocks are intricately carved with designs, often inspired by nature or religious motifs, and dipped in dye to imprint the pattern onto the fabric. This technique is commonly used in India to create vibrant, intricate prints on fabrics such as cotton and silk. It's especially popular in Rajasthan, Gujarat, and other regions, producing textiles for clothing, home décor, and upholstery.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+    
+        menuBtn.addEventListener("click",() => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+    
+        });
+    
+    </script>
+
+</body>
+</html>

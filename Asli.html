@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Orang Asli</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="brand">Kraf Tangan</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="Home.html">Home</a>
+                <a href="Asli.html">Orang Asli</a>
+                <a href="Melayu.html">Malay</a>
+                <a href="Chinese.html">Chinese</a>
+                <a href="Indian.html">Indian</a>
+                <a href="About.html">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="slide">
+
+            <div class="item video-item">
+                <video src="./Video/video asli.mp4" controls poster="./Images/poster.png"></video>
+                <div class="content">
+                    <div class="name">Click to Play the Video</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/anyaman.png);">
+                <div class="content">
+                    <div class="name">Anyaman Orang Asli</div>
+                    <div class="des">The weaving craft of the Orang Asli in Malaysia involves creating various functional and decorative items using natural materials like rattan, bamboo, and palm leaves. This traditional skill is passed down through generations, with each item crafted for specific purposes, such as baskets, mats, hats, and bags. Weaving is an integral part of Orang Asli culture, reflecting their resourcefulness and close relationship with nature. It also holds cultural significance, often used in rituals and daily life, and plays a role in preserving their heritage.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/ukiran\ kayu.png);">
+                <div class="content">
+                    <div class="name">Ukiran Patung kayu</div>
+                <div class="des">The wooden sculptures of the Orang Asli in Malaysia are a significant form of traditional craftsmanship, deeply rooted in their culture and spiritual beliefs. These sculptures are typically carved from durable hardwoods like cengal or meranti, using basic tools such as knives and chisels. The carvings often depict deities, ancestral spirits, or mythical creatures, symbolizing protection and connection to the spiritual world. These sculptures are not only used in religious rituals and ceremonies but also serve as decorative pieces, showcasing the artistic skills and cultural heritage of the Orang Asli. Through these intricate carvings, they preserve and pass down their beliefs, stories, and traditions to future generations.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/sumpit.png);">
+                <div class="content">
+                    <div class="name">Sumpit</div>
+                    <div class="des">The "sumpit" or blowpipe is a traditional weapon used by the Orang Asli, the indigenous people of Malaysia. It is typically made from bamboo or hardwood, with a hollow tube used to shoot darts. The darts are often tipped with natural poison derived from plants or animals, making them effective for hunting small game. The sumpit is lightweight, portable, and silent, making it an ideal tool for hunting in dense forests. Besides its practical use, the blowpipe also holds cultural significance, reflecting the Orang Asli’s deep connection with their natural environment.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/Topeng\ Muka.png);">
+                <div class="content">
+                    <div class="name">Topeng Muka</div>
+                    <div class="des">"Topeng Muka Orang Asli" (Indigenous Face Masks) are traditional masks crafted by the indigenous communities in Malaysia. These masks are often made from natural materials like wood, bamboo, and sometimes decorated with paint, feathers, or leaves. They are typically used in rituals, ceremonies, and traditional dances, serving as a medium to communicate with spirits, ancestors, or deities. The masks often feature intricate designs and symbols that reflect the beliefs, myths, and connection of the Orang Asli to nature and their spiritual world.</div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+    
+        menuBtn.addEventListener("click",() => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+    
+        });
+    
+    </script>
+
+</body>
+</html>

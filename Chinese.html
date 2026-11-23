@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Chinese</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="brand">Kraf Tangan</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="Home.html">Home</a>
+                <a href="Asli.html">Orang Asli</a>
+                <a href="Melayu.html">Malay</a>
+                <a href="Chinese.html">Chinese</a>
+                <a href="Indian.html">Indian</a>
+                <a href="About.html">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="slide">
+
+            <div class="item" style="background-image: url(./Images/tanglung.jpg);">
+                <div class="content">
+                    <div class="name">Lantern Art</div>
+                    <div class="des">The art of Chinese lanterns, or seni tanglung orang Cina, is a traditional craft deeply rooted in Chinese culture. Lanterns are often crafted from materials like paper, silk, or cloth, supported by bamboo or metal frames. They are commonly associated with celebrations, particularly the Lantern Festival, which marks the end of Chinese New Year. These lanterns are more than just decorations; they symbolize prosperity, good luck, and unity. Designs range from simple, brightly colored spheres to intricate shapes depicting animals, flowers, or cultural symbols. Illuminated by candles or modern lights, they create a warm, festive atmosphere and reflect the creativity and artistry of the Chinese community.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/suterani.PNG);">
+                <div class="content">
+                    <div class="name">Silk Art</div>
+                    <div class="des">The silk art of the Chinese community is a traditional craft that reflects their rich cultural heritage. Silk fabric, known for its elegance and fine texture, is used to create intricate designs and patterns, often inspired by nature, mythology, or auspicious symbols. This art form involves techniques like weaving, dyeing, and embroidery, showcasing the community's skill and artistry. Silk is highly valued, not just for its beauty, but also as a symbol of prosperity and tradition in Chinese culture.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/paper.png);">
+                <div class="content">
+                    <div class="name">Paper Craft</div>
+                <div class="des">Chinese Paper Craft (Origami and Paper Painting) in Malaysia involves intricate techniques that reflect traditional Chinese culture. Origami, the art of paper folding, is used to create various shapes and figures, often symbolizing good luck or prosperity, such as animals, flowers, and decorative items. Additionally, paper painting, particularly Chinese calligraphy and artwork, is a key part of this craft, where delicate brush strokes are used to paint traditional motifs like landscapes, flowers, and symbolic characters. This paper craft is not only a decorative art but also holds cultural significance, representing harmony, wealth, and auspiciousness in Chinese tradition.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/porselin.png);">
+                <div class="content">
+                    <div class="name">Porcelain Art</div>
+                    <div class="des">Chinese porcelain art refers to the traditional craft of creating fine ceramic objects, known for their intricate designs, delicate craftsmanship, and cultural significance. Originating in ancient China, this art form often features motifs like dragons, flowers, and nature, symbolizing prosperity, harmony, and good fortune. Chinese porcelain is highly valued worldwide for its beauty and historical importance.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/cinatopeng.jpg);">
+                <div class="content">
+                    <div class="name">Mask Art</div>
+                    <div class="des">Chinese mask art (seni topeng orang Cina) in Malaysia is an important part of traditional performances and rituals. Masks are commonly used in Chinese opera, folk dances, and festivals, such as the Lion Dance and Dragon Dance. These masks represent various characters, deities, and symbolic creatures like lions or dragons. They are often elaborately painted with vibrant colors and intricate designs, each representing different traits or emotions. The masks play a significant role in storytelling, enhancing the performance's dramatic effect and cultural expression.</div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+    
+        menuBtn.addEventListener("click",() => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+    
+        });
+    
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Malay</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <a href="Home.html" class="brand">Kraf Tangan</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="Home.html">Home</a>
+                <a href="Asli.html">Orang Asli</a>
+                <a href="Melayu.html">Malay</a>
+                <a href="Chinese.html">Chinese</a>
+                <a href="Indian.html">Indian</a>
+                <a href="About.html">About Us</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <div class="slide">
+
+            <div class="item video-item">
+                <video src="./Video/melayuni.mp4" controls poster="./Images/orgmelayu.jpg"></video>
+                <div class="content">
+                    <div class="name">Click to Play the Video</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/kayumelayu.jpg);">
+                <div class="content">
+                    <div class="name">Woodcarving</div>
+                    <div class="des">Malay woodcarving (seni ukiran kayu orang Melayu) is a traditional art form deeply rooted in Malay culture and heritage. It involves intricate designs carved into wood, often inspired by nature, Islamic motifs, and local traditions. The carvings are commonly found in traditional Malay houses, mosques, and furniture, symbolizing aesthetics, spirituality, and cultural identity. This craft requires high skill and attention to detail, reflecting the artisans' creativity and devotion to their craft.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/Malaysian_Batik.jpg);">
+                <div class="content">
+                    <div class="name">Batik Art</div>
+                <div class="des">Malay batik is a traditional art form originating from Malaysia, characterized by intricate designs and vibrant colors. It involves applying wax to fabric to create patterns, followed by dyeing the cloth. Common motifs include floral, geometric, and nature-inspired designs. Malay batik is renowned for its free-flowing and organic patterns, reflecting the cultural heritage and natural beauty of the region. This art is often used to produce clothing, such as sarongs and baju kurung, as well as decorative items, symbolizing elegance and tradition in Malay culture.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/bikarmel.jpg);">
+                <div class="content">
+                    <div class="name">Pottery</div>
+                    <div class="des">Malay pottery art is a traditional craft that reflects the creativity and cultural heritage of the Malay people. Pottery items are typically handmade using clay and shaped into various functional or decorative forms, such as pots, vases, and cooking utensils. The designs often feature intricate patterns inspired by nature, such as flowers, leaves, and geometric motifs, symbolizing harmony and connection to the environment. This art form is not only a testament to Malay craftsmanship but also plays a role in preserving cultural traditions.</div>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(./Images/melayutem.jpg);">
+                <div class="content">
+                    <div class="name">Copper Craft</div>
+                    <div class="des">Malay copper craft, or seni tembaga Melayu, is a traditional art form that involves shaping and decorating copper into functional and decorative items. This craft has deep roots in Malay culture, often associated with intricate designs inspired by nature, Islamic motifs, and local heritage. Artisans create items such as traditional cooking utensils, incense holders, trays, and ceremonial accessories. The craftsmanship requires skillful techniques like casting, engraving, and embossing, passed down through generations, reflecting the artistry and cultural identity of the Malay people.</div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="button">
+            <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+    
+        menuBtn.addEventListener("click",() => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+    
+        });
+    
+    </script>
+
+</body>
+</html>
